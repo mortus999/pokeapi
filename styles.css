@@ -1,0 +1,18 @@
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .jumbotron {
+    background-color: #efaf4f;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  footer {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #f89533;
+  }
+  

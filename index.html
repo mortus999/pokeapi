@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon API Project</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <style>
+    body{
+      background-image: url(static/pokemon\ background.jpg);
+      background-size: cover;
+    }
+  </style>
+  <div class="container">
+    <header>
+      <h1>Know more about your favorite Pokemon!</h1>
+    </header>
+    <main>
+      <div class="jumbotron">
+        <h2>Search for Pokémon</h2>
+        <form id="searchForm">
+          <div class="form-group">
+            <label for="pokemonName">Enter Pokémon Name or ID:</label>
+            <input type="text" class="form-control" id="pokemonName" placeholder="Example., Pikachu">
+          </div>
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+      <div id="pokemonData" class="mt-4">
+      </div>
+    </main>
+    <footer class="mt-5 text-center">
+      <p>&copy; 2024 Pokémon Company</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
